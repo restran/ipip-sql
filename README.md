@@ -37,13 +37,12 @@ install dependencies
 modify your databse account
 
 ```py
-db = records.Database('mysql://user:password@localhost/ip_database'
+db = records.Database('mysql://user:password@localhost/ip_database')
 ```
 
 run the python code
 
 ```py
-...
 IP.save_to_database()
 ```
 
