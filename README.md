@@ -1,13 +1,14 @@
 # ipip-sql
+
 SQL version for IPIP.net free global ipv4 address database
 
 ## Motivation
 
-[IPIP.net](https://www.ipip.net/download.html) provides a free global ipv4 address database, specially better for China. The [oficial recommended sdk](https://github.com/lxyu/17monip) queries ip address based on file seeking. In some case, i would like to use sql query. This project transfers ip address data from file to mysql databse. 
+[IPIP.net](https://www.ipip.net) provides a free global ipv4 address database, specially better for China. The [oficial recommended sdk](https://github.com/lxyu/17monip) queries ip address based on file seeking. In some case, i would like to use sql query. This project transfers ip address data from file to mysql databse. 
 
 ## Usage 
 
-Step 1, download latests dat file
+Step 1, download latest dat file
 
 - https://www.ipip.net/download.html
 
