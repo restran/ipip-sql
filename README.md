@@ -30,10 +30,20 @@ CREATE TABLE `app_ip` (
 
 Step 3, save to databse
 
+install dependencies
+
+	pip3 install -r requirements.txt
+	
+modify your databse account
+
+```py
+db = records.Database('mysql://user:password@localhost/ip_database'
 ```
-# modify your databse account
-db = records.Database('mysql://user:password@localhost/qr_track'
-# save to databse
+
+run the python code
+
+```py
+...
 IP.save_to_database()
 ```
 
@@ -43,7 +53,7 @@ Step 4, query ip
 IP.query(['114.114.114.114', '8.8.8.8'])
 ```
 
-Output
+output
 
 ```
 [{'country': '114DNS.COM', 'province': '114DNS.COM', 'city': ''}, {'country': 'GOOGLE.COM', 'province': 'GOOGLE.COM', 'city': ''}]
